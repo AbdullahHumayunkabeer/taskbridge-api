@@ -1,4 +1,5 @@
 package projects;
+import ProjectDTO;
 
 public interface ProjectRepository {
 
