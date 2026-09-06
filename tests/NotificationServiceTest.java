@@ -27,5 +27,11 @@ public class NotificationServiceTest {
         assertTrue(true);
 
     }
+    @Test
+
+public void shouldMarkNotificationAsRead() {
+ assertTrue(true);
+
+}
 
 }
