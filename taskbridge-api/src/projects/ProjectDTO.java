@@ -1,5 +1,6 @@
-
 package projects;
+
+
 public class ProjectDTO {
 
 
@@ -10,5 +11,19 @@ public class ProjectDTO {
     private String status;
 
     private Long organizationId;
+
+
+    public Long getId() {
+
+        return id;
+
+    }
+
+
+    public void setId(Long id) {
+
+        this.id = id;
+
+    }
 
 }
