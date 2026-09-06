@@ -3,7 +3,7 @@ package notifications;
 import java.util.ArrayList;
 
 import java.util.List;
-
+import Notifications.Notification;
 
 public class NotificationService {
 
