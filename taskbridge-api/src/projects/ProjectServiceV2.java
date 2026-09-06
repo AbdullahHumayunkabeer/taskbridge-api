@@ -1,6 +1,7 @@
 package projects;
 import ProjectRepository;
 import ProjectDTO;
+import Project;
 
 public class ProjectServiceV2 {
 
