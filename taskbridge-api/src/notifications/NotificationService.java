@@ -39,7 +39,7 @@ public class NotificationService {
 
     public void markAsRead(Long id) {
 
-
+ System.out.println("Notification with ID " + id + " marked as read.");
     }
 
 }
