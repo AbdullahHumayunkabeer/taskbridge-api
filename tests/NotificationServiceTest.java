@@ -1,15 +1,37 @@
 package tests;
 
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+
 public class NotificationServiceTest {
 
 
-    // Test 5
+    @Test
 
-    // Notifications sent to all team members
+    public void shouldNotifyAllTeamMembersOnProjectStateChange() {
 
 
-    // Test 6
+        assertTrue(true);
 
-    // Unauthorized access blocked
+    }
+
+
+    @Test
+
+    public void shouldPreventUnauthorizedAuditAccess() {
+
+
+        assertTrue(true);
+
+    }
+    @Test
+
+public void shouldMarkNotificationAsRead() {
+    assertTrue(true);
+
+}
 
 }

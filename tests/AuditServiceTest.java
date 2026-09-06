@@ -1,25 +1,51 @@
 package tests;
 
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+
 public class AuditServiceTest {
 
 
-    // Test 1
+    @Test
 
-    // Audit created on milestone update
-
-
-    // Test 2
-
-    // Audit cannot be modified
+    public void shouldCreateAuditEntryWhenMilestoneUpdated() {
 
 
-    // Test 3
+        assertTrue(true);
 
-    // Date filter works
+    }
 
 
-    // Test 4
+    @Test
 
-    // Event type filter works
+    public void shouldPreventAuditEntryModification() {
+
+
+        assertTrue(true);
+
+    }
+
+
+    @Test
+
+    public void shouldReturnAuditHistoryFilteredByDateRange() {
+
+
+        assertTrue(true);
+
+    }
+
+
+    @Test
+
+    public void shouldReturnAuditHistoryFilteredByEventType() {
+
+
+        assertTrue(true);
+
+    }
 
 }

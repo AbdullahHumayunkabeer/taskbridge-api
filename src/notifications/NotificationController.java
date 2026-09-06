@@ -1,4 +1,5 @@
 package notifications;
+import Notifications.NotificationService;
 
 public class NotificationController {
 

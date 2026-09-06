@@ -2,6 +2,7 @@ package notifications;
 import java.util.ArrayList;
 
 import java.util.List;
+import notifications.AuditEntry;
 
 
 public class AuditService {
