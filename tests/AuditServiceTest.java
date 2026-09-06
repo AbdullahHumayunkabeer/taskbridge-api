@@ -1,25 +1,39 @@
 package tests;
 
+
 public class AuditServiceTest {
 
 
-    // Test 1
+    // Test Case 1
 
-    // Audit created on milestone update
-
-
-    // Test 2
-
-    // Audit cannot be modified
+    public void shouldCreateAuditEntryWhenMilestoneUpdated() {
 
 
-    // Test 3
-
-    // Date filter works
+    }
 
 
-    // Test 4
+    // Test Case 2
 
-    // Event type filter works
+    public void shouldPreventAuditEntryModification() {
+
+
+    }
+
+
+    // Test Case 3
+
+    public void shouldReturnAuditHistoryFilteredByDateRange() {
+
+
+    }
+
+
+    // Test Case 4
+
+    public void shouldReturnAuditHistoryFilteredByEventType() {
+
+
+    }
+
 
 }
