@@ -1,15 +1,23 @@
 package tests;
 
+
 public class NotificationServiceTest {
 
 
-    // Test 5
+    // Test Case 5
 
-    // Notifications sent to all team members
+    public void shouldNotifyAllTeamMembersOnProjectStateChange() {
 
 
-    // Test 6
+    }
 
-    // Unauthorized access blocked
+
+    // Test Case 6
+
+    public void shouldPreventUnauthorizedAuditAccess() {
+
+
+    }
+
 
 }
